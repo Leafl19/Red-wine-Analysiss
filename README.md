@@ -34,7 +34,6 @@ The following visualizations were created to highlight key trends in the data:
 1. **Correlation Heatmap**:
    - [Correlation Heatmap](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-2/Sheet1?publish=yes)
 
-[Screenshot 2024-09-22 at 11 41 02 AM](https://github.com/user-attachments/assets/f77b3434-4851-430a-b58f-5eac5ee102bc)
 
    - **Insight**: Alcohol content has a positive correlation with wine quality, while volatile acidity has a negative impact.
 
@@ -45,8 +44,9 @@ The following visualizations were created to highlight key trends in the data:
 
 4. **Average Alcohol Content vs. Wine Quality (Bar Chart)**:
    - [Average Alcohol Content vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard/Sheet4?publish=yes)
-     
-   - **Insight**: Higher alcohol content is associated with higher-quality wines.
+     ![Screenshot 2024-09-22 at 11 44 00 AM](https://github.com/user-attachments/assets/68efc3b4-e03a-4d26-a7ac-881ed87deb1c)
+
+- **Insight**: Higher alcohol content is associated with higher-quality wines.
 
 ## Tableau Dashboard
 For a fully interactive exploration of the red wine dataset, the **Tableau dashboard** is available for viewing . The workbook includes visuals for correlation heatmaps, scatter plots, and bar charts to help explore the relationships between wine quality and various chemical properties.
