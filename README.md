@@ -57,7 +57,7 @@ For a fully interactive exploration of the red wine dataset, the **Tableau dashb
 - [View Dashboard](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-5/Dashboard1?publish=yes)
 
 ## Dataset
-- **Red Wine Quality Dataset**: [Download Dataset](Data/red_wine_data.csv)
+- **Red Wine Quality Dataset**: [Download Dataset][Red Wine Fixed.csv](https://github.com/user-attachments/files/17090337/Red.Wine.Fixed.csv)
 
 
 ## Recommendations
