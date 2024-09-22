@@ -34,8 +34,9 @@ The following visualizations were created to highlight key trends in the data:
 1. **Correlation Heatmap**:
    - [Correlation Heatmap](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-2/Sheet1?publish=yes)
 
+![Screenshot 2024-09-22 at 11 41 02 AM](https://github.com/user-attachments/assets/8430f29a-a264-4e5a-983e-af7a8ec859e2)
 
-   - **Insight**: Alcohol content has a positive correlation with wine quality, while volatile acidity has a negative impact.
+- **Insight**: Alcohol content has a positive correlation with wine quality, while volatile acidity has a negative impact.
 
 3. **Volatile Acidity vs. Wine Quality (Scatter Plot)**:
    - [Volatile Acidity vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-3/Sheet3?publish=yes)
