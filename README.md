@@ -41,7 +41,9 @@ The following visualizations were created to highlight key trends in the data:
 3. **Volatile Acidity vs. Wine Quality (Scatter Plot)**:
    - [Volatile Acidity vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-3/Sheet3?publish=yes)
      
-   -  **Insight**: Higher volatile acidity tends to result in lower wine quality ratings.
+![Screenshot 2024-09-22 at 11 41 55 AM](https://github.com/user-attachments/assets/63fa6e26-b2a0-4bb8-9e3e-6d46a27421b9)
+
+-  **Insight**: Higher volatile acidity tends to result in lower wine quality ratings.
 
 4. **Average Alcohol Content vs. Wine Quality (Bar Chart)**:
    - [Average Alcohol Content vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard/Sheet4?publish=yes)
