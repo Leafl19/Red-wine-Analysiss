@@ -32,26 +32,27 @@ The R script calculates the correlation matrix between chemical properties and w
 The following visualizations were created to highlight key trends in the data:
 
 1. **Correlation Heatmap**:
-   - ![Correlation Heatmap](Visualizations/correlation_heatmap.png)
+   - [Correlation Heatmap](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-2/Sheet1?publish=yes)
+
    - **Insight**: Alcohol content has a positive correlation with wine quality, while volatile acidity has a negative impact.
 
-2. **Volatile Acidity vs. Wine Quality (Scatter Plot)**:
-   - ![Volatile Acidity vs. Quality](Visualizations/volatile_acidity_vs_quality.png)
-   - **Insight**: Higher volatile acidity tends to result in lower wine quality ratings.
+3. **Volatile Acidity vs. Wine Quality (Scatter Plot)**:
+   - [Volatile Acidity vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-3/Sheet3?publish=yes)
+     
+   -  **Insight**: Higher volatile acidity tends to result in lower wine quality ratings.
 
-3. **Average Alcohol Content vs. Wine Quality (Bar Chart)**:
-   - ![Average Alcohol Content vs. Quality](Visualizations/avg_alcohol_vs_quality.png)
+4. **Average Alcohol Content vs. Wine Quality (Bar Chart)**:
+   - [Average Alcohol Content vs. Quality](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard/Sheet4?publish=yes)
+     
    - **Insight**: Higher alcohol content is associated with higher-quality wines.
 
 ## Tableau Dashboard
-For a fully interactive exploration of the red wine dataset, the **Tableau dashboard** is available for download. The workbook includes visuals for correlation heatmaps, scatter plots, and bar charts to help explore the relationships between wine quality and various chemical properties.
+For a fully interactive exploration of the red wine dataset, the **Tableau dashboard** is available for viewing . The workbook includes visuals for correlation heatmaps, scatter plots, and bar charts to help explore the relationships between wine quality and various chemical properties.
 
-- [Download Tableau Workbook](Tableau_Workbook/red_wine_dashboard.twbx)
+- [View Dashboard](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-5/Dashboard1?publish=yes)
 
 ## Dataset
 - **Red Wine Quality Dataset**: [Download Dataset](Data/red_wine_data.csv)
-
-Alternatively, link to the source where the dataset is publicly available.
 
 
 ## Recommendations
