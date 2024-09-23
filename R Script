@@ -1,0 +1,38 @@
+# Here is my process in R for correlation Analysis
+
+# Load necessary libraries
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(corrplot)
+
+# Loaded the dataset 
+red_wine <- read.csv("Downloads/Archive-5/wine-quality Red.csv")
+
+# Viewed the first few rows of the dataset
+head(red_wine)
+
+# Got a summary of the dataset
+summary(red_wine)
+
+# Calculated the correlation matrix
+cor_matrix <- cor(red_wine, use = "complete.obs")
+
+# Displayed the correlation matrix
+print(cor_matrix)
+
+# Visualized the correlation matrix
+corrplot(cor_matrix, method = "color", type = "upper", 
+         tl.col = "black", tl.srt = 45, 
+         col=colorRampPalette(c("blue", "white", "red"))(200),
+         addCoef.col = "black")
+
+# Reshaped the correlation matrix for export for Tableau dashboard creation
+cor_melt <- melt(cor_matrix)
+colnames(cor_melt) <- c("Variable1", "Variable2", "Correlation")
+
+# Export the reshaped correlation matrix as a CSV file for further use (e.g., in Tableau)
+write.csv(cor_melt, "red_wine_correlation_matrix.csv", row.names = FALSE)
+
+
+
