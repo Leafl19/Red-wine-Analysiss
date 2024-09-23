@@ -19,13 +19,10 @@ The repository is organized as follows:
 ## Analysis Code
 
 ### SQL Code:
-- [SQL Code for Data Cleaning and Summary Analysis](SQL/red_wine_analysis.sql)
-  
-The SQL code cleans and prepares the dataset, converts key variables to appropriate types, and calculates summary statistics such as averages for volatile acidity, alcohol content, and other properties.
+- [SQL Code for Data Cleaning and Summary Analysis](https://github.com/user-attachments/files/17093677/Sql.script.txt) : The SQL code cleans and prepares the dataset, converts key variables to appropriate types, and calculates summary statistics such as averages for volatile acidity, alcohol content, and other properties.
 
 ### R Code:
-- [R Code for Correlation Analysis and Export](https://github.com/user-attachments/files/17093645/R.Script.txt)
-The R script calculates the correlation matrix between chemical properties and wine quality, visualizes the relationships using `corrplot`, and exports the results for further use in **Tableau**.
+- [R Code for Correlation Analysis and Export](https://github.com/user-attachments/files/17093645/R.Script.txt) : The R script calculates the correlation matrix between chemical properties and wine quality, visualizes the relationships using `corrplot`, and exports the results for further use in **Tableau**.
 
 ## Visualizations
 The following visualizations were created to highlight key trends in the data:
