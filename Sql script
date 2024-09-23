@@ -17,7 +17,7 @@ SELECT
 FROM
    `wineee.wine_analysis.Red`;
 
--- 2: Wine quality distribution: Count the number of wines in each quality rating
+-- 2: Wine quality distribution: Counts the number of wines in each quality rating
 SELECT
     Quality,
     COUNT(*) AS count
