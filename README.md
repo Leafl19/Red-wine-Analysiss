@@ -6,9 +6,9 @@ This project provides an in-depth analysis of factors influencing red wine quali
 ## Project Structure
 The repository is organized as follows:
 - **SQL**: Contains SQL scripts for data cleaning and summary analysis.
-- **R_Scripts**: Contains R code for calculating the correlation matrix and exporting the results for visualization.
+- **RScripts**: Contains R code for calculating the correlation matrix and exporting the results for visualization.
 - **Data**: The dataset used for analysis 
-- **Tableau_Workbook**: Tableau visuals 
+- **Tableau workbook + dashboard**: Tableau visuals 
 
 
 ## Key Findings
@@ -57,7 +57,8 @@ For a fully interactive exploration of the red wine dataset, the **Tableau dashb
 - [View Dashboard](https://public.tableau.com/app/profile/leaf.lewis1752/viz/RedWineDashboard-5/Dashboard1?publish=yes)
 
 ## Dataset
-- **Red Wine Quality Dataset**: [Download Dataset][Red Wine Fixed.csv](https://github.com/user-attachments/files/17090337/Red.Wine.Fixed.csv)
+- **Red Wine Quality Dataset**: [Download Dataset]
+[Red Wine Fixed.csv](https://github.com/user-attachments/files/17090337/Red.Wine.Fixed.csv)
 
 
 ## Recommendations
