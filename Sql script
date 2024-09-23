@@ -1,0 +1,29 @@
+My SQL script process
+
+1: Summary statistics for key variables (alcohol, acidity, etc.)
+SELECT
+    AVG(Fixed_Acidity) AS avg_fixed_acidity,
+    AVG(Volatile_Acidity) AS avg_volatile_acidity,
+    AVG(Citric_Acid) AS avg_citric_acid,
+    AVG(Residual_Sugar) AS avg_residual_sugar,
+    AVG(Chlorides) AS avg_chlorides,
+    AVG(Free_Sulfur_Dioxide) AS avg_free_sulfur_dioxide,
+    AVG(Total_Sulfur_Dioxide) AS avg_total_sulfur_dioxide,
+    AVG(Density) AS avg_density,
+    AVG(pH) AS avg_pH,
+    AVG(Sulphates) AS avg_sulphates,
+    AVG(Alcohol) AS avg_alcohol,
+    AVG(Quality) AS avg_quality
+FROM
+   `wineee.wine_analysis.Red`;
+
+-- 2: Wine quality distribution: Count the number of wines in each quality rating
+SELECT
+    Quality,
+    COUNT(*) AS count
+FROM
+     `wineee.wine_analysis.Red`
+GROUP BY
+    Quality
+ORDER BY
+    Quality;
